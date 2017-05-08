@@ -1,0 +1,102 @@
+@lin-color: #ddd;
+
+/*动画过程*/
+@keyframes animationExample {
+  from {
+    width: 0;
+  }
+  to {
+    width: 100%;
+  }
+}
+
+/*上下左右间距缩写*/
+.crip_shorthand {
+  mt: 1rem;
+  mr: 2rem;
+  mb: 3rem;
+  ml: 4rem;
+}
+
+/*动画定义*/
+.animateThis {
+  animation: animationExample 2s;
+  display: flex;
+}
+
+/*定义css3 backface-visibility*/
+.thisWillChange {
+  will-change: transform;
+}
+
+/*背景*/
+.rgbaFallback {
+  background: rgba(0, 0, 0, 0.5);
+}
+
+/*透明度*/
+.opacityFallback {
+  opacity: 0.5;
+}
+
+/*css3 vim*/
+.vmFallback {
+  width: 50vmin;
+}
+
+//测试less
+div {
+  width: 1rem;
+  color: @lin-color;
+  > i {
+    color: @lin-color;
+  }
+}
+
+/*rem 转换*/
+.remFallback {
+  height: 10rem;
+  font: 2rem Arial;
+}
+
+/*画圆*/
+.circle {
+  circle: 2rem #f00;
+}
+
+/*test css_nano*/
+.css_nano, .css_nano + p, .css_nano { /* cssnano will remove this comment */
+  display: flex;
+  font-weight: normal;
+  margin-top: 1rem;
+  margin-bottom: 2rem;
+  margin-left: 1.5rem;
+  margin-right: 2.5rem;
+  font-weight: normal;
+  padding: 1.75rem;
+  width: calc(50rem - (2 * 1.75rem));
+}
+
+/*字体*/
+body {
+  font-family: "Indie Flower";
+}
+
+/*三角形，arrow*/
+.triangle {
+  triangle: pointing-left; /*pointing-<up|down|left|right>*/
+  width: 2rem;
+  height: 2rem;
+  background-color: black;
+}
+
+/*a标签*/
+a {
+@link-colors all #eee;
+}
+
+/*content*/
+.remFallback::before {
+  content: '';
+  line-height: 1rem;
+}

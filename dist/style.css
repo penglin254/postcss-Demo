@@ -1,0 +1,145 @@
+@font-face {
+  font-family: "Indie Flower";
+  font-style: normal;
+  font-weight: 400;
+  src: local("Indie Flower"),local(IndieFlower),url(//fonts.gstatic.com/s/indieflower/v8/10JVD_humAd5zP2yrFqw6nZ2MAKAc2x4R1uOSeegc5U.eot?#) format("eot"),url(//fonts.gstatic.com/s/indieflower/v8/10JVD_humAd5zP2yrFqw6ugdm0LZdjqr5-oayXSOefg.woff2) format("woff2"),url(//fonts.gstatic.com/s/indieflower/v8/10JVD_humAd5zP2yrFqw6nhCUOGz7vYGh680lGh-uXM.woff) format("woff");
+}
+/*动画过程*/
+@-webkit-keyframes animationExample {
+  from {
+    width: 0;
+  }
+  to {
+    width: 100%;
+  }
+}
+@keyframes animationExample {
+  from {
+    width: 0;
+  }
+  to {
+    width: 100%;
+  }
+}
+/*上下左右间距缩写*/
+.crip_shorthand {
+  margin-top: 16px;
+  margin-top: 1rem;
+  margin-right: 32px;
+  margin-right: 2rem;
+  margin-bottom: 48px;
+  margin-bottom: 3rem;
+  margin-left: 64px;
+  margin-left: 4rem;
+}
+/*动画定义*/
+.animateThis {
+  -webkit-animation: animationExample 2s;
+          animation: animationExample 2s;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+/*定义css3 backface-visibility*/
+.thisWillChange {
+  -webkit-backface-visibility: hidden;
+          backface-visibility: hidden;
+  will-change: transform;
+}
+/*背景*/
+.rgbaFallback {
+  background: #000000;
+  background: rgba(0, 0, 0, 0.5);
+}
+/*透明度*/
+.opacityFallback {
+  opacity: 0.5;
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
+}
+/*css3 vim*/
+.vmFallback {
+  width: 50vm;
+  width: 50vmin;
+}
+div {
+  width: 16px;
+  width: 1rem;
+  color: #ddd;
+}
+div > i {
+  color: #ddd;
+}
+/*rem 转换*/
+.remFallback {
+  height: 160px;
+  height: 10rem;
+  font: 32px Arial;
+  font: 2rem Arial;
+}
+/*画圆*/
+.circle {
+  border-radius: 50%;
+  width: 32px;
+  width: 2rem;
+  height: 32px;
+  height: 2rem;
+  background-color: #f00;
+}
+/*test css_nano*/
+.css_nano,
+.css_nano + p,
+.css_nano {
+  /* cssnano will remove this comment */
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 16px;
+  margin-top: 1rem;
+  margin-bottom: 32px;
+  margin-bottom: 2rem;
+  margin-left: 24px;
+  margin-left: 1.5rem;
+  margin-right: 40px;
+  margin-right: 2.5rem;
+  font-weight: normal;
+  padding: 28px;
+  padding: 1.75rem;
+  width: calc(46.5rem);
+}
+/*字体*/
+body {
+  font-family: "Indie Flower";
+}
+/*三角形，arrow*/
+.triangle {
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-color: transparent;
+  border-width: 16px 32px 16px 0;
+  border-width: 1rem 2rem 1rem 0;
+  /*pointing-<up|down|left|right>*/
+  border-right-color: black;
+}
+/*a标签*/
+a {
+  color: #eee;
+}
+a:visited {
+  color: #eee;
+}
+a:focus {
+  color: #eee;
+}
+a:hover {
+  color: #eee;
+}
+a:active {
+  color: #eee;
+}
+/*content*/
+.remFallback:before {
+  content: '';
+  line-height: 16px;
+  line-height: 1rem;
+}

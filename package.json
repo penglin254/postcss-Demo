@@ -1,0 +1,41 @@
+{
+  "name": "postcss-lin",
+  "version": "1.0.0",
+  "description": "结合less和众多模块方便实用的一个css模块化",
+  "main": "gulpfile.js",
+  "dependencies": {
+    "gulp-less": "^3.3.0",
+    "gulp-postcss": "^6.0.0",
+    "gulp": "^3.9.1",
+    "postcss-alias": "^1.0.0",
+    "postcss-center": "^1.0.0",
+    "postcss-all-link-colors": "^1.0.1",
+    "postcss-clearfix": "^1.0.0",
+    "postcss-circle": "^1.0.0",
+    "postcss-color-short": "^0.2.4",
+    "postcss-font-magician": "^1.6.1",
+    "postcss-crip": "^2.0.1",
+    "postcss-position": "^0.5.0",
+    "postcss-size": "^1.1.1",
+    "postcss-triangle": "^1.0.1",
+    "postcss-verthorz": "^0.6.2"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/penglin254/postcss-Demo.git"
+  },
+  "keywords": [
+    "post-css",
+    "post-css-lin"
+  ],
+  "author": "lin peng",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/penglin254/postcss-Demo/issues"
+  },
+  "homepage": "https://github.com/penglin254/postcss-Demo#readme"
+}
