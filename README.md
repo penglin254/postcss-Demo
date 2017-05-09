@@ -41,10 +41,10 @@ a:active {
 ~~~
 
 
-###说明
+##说明
 本插件是基于gulp自动化构建，必须npm install gulp。
 
-###功能
+##功能
 1.简化很多css，使之编译成功。
 
 2.css3动画优化，加前缀兼容。
@@ -55,16 +55,16 @@ a:active {
 
 5.优化特性，如三角形，字体，圆
 
-###使用方法
+##使用方法
 1.npm install
 
 2.gulp css
 
 
-### 关于 gulp postcss
+## 关于 gulp postcss
 1.有问题请提交github issue上。<br>
 2.有什么好的建议或者改进可以联系作者。
 
-### 联系方式
+## 联系方式
 wechat : 139193411<br>
 qq : [139193411](http://wpa.qq.com/msgrd?v=3&uin=139193411&site=qq&menu=yes)
