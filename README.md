@@ -41,7 +41,7 @@ a:active {
 ~~~
 
 
-##说明
+## 说明
 本插件是基于gulp自动化构建，必须npm install gulp。
 
 ##功能
@@ -55,7 +55,7 @@ a:active {
 
 5.优化特性，如三角形，字体，圆
 
-##使用方法
+## 使用方法
 1.npm install
 
 2.gulp css
