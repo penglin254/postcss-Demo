@@ -1,0 +1,22 @@
+{
+  "name": "postcss-lin",
+  "description": "结合less和众多模块方便实用的一个css模块化",
+  "main": "gulpfile.js",
+  "authors": [
+    "lin peng"
+  ],
+  "license": "ISC",
+  "keywords": [
+    "post-css",
+    "post-css-lin"
+  ],
+  "homepage": "https://github.com/penglin254/postcss-Demo",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
